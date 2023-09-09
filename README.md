@@ -16,6 +16,10 @@ This project demonstrates a simple traffic light control system using an ATmega3
 ### HAL 
 - **Seven Segment Driver**: Implementation functions to initialize the seven-segment display, display numbers, and control it.
 
+### LIB
+- **Bit_Math**: Implementation functions to control and manipulate bits
+- **types**:    defining types to be used
+
 ### APP 
 - **main.c**: The main application file that controls the traffic light system. It uses functions from the MCAL and HAL layers to manage the traffic light and countdown display.
 
